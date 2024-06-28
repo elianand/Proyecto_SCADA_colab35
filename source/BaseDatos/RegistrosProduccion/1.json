@@ -1,0 +1,15 @@
+{"arrayRegProdP":[
+    {"id":0,"hora":800,"prodAcum":0},
+    {"id":0,"hora":830,"prodAcum":20},
+    {"id":0,"hora":900,"prodAcum":40},
+    {"id":0,"hora":945,"prodAcum":65},
+    {"id":0,"hora":1015,"prodAcum":65},
+    {"id":0,"hora":1030,"prodAcum":70},
+    {"id":0,"hora":1100,"prodAcum":80},
+    {"id":0,"hora":1200,"prodAcum":120}
+],"arrayRegProdTG":[
+    {"id":0,"fecha":2802,"idTurno":1,"cantProd":240}
+],"arrayRegProdNT":[
+    {"idTurno":0,"nombreTurno":"Manaña"},
+    {"idTurno":1,"nombreTurno":"Tarde"}
+]}

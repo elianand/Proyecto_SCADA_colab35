@@ -1,0 +1,52 @@
+:root {
+    --mi-lg-width: 240px;                   /*ancho de item del menu en pantalla larga*/
+    --navbar-brand-height: 61px;            /*altura de barra que contiene el logo*/
+    --navbar-maqInfo-height: 78px;          /*altura de barra de informacion de maquina*/
+    --cntndr-menuData-margin-top: 20px;     /*margen superior del contenedor de los datos de maquina*/
+    --navbar-menu-sm-height: 54px;          /*altura de la barra del menu en pequeño*/
+    --navbar-menu-sm-padding: 9px;          /*padding de la barra del menu pequeño*/
+    --white: #ffffff;
+  }
+
+/*            En pantalla media-larga       */
+@media screen and (min-width: 800px) {
+    .menu-lg {
+        display: flex!important;    
+    }
+    .menu-sm {
+        display: none!important;   
+    }
+    .cont-prc {
+        width: calc(100% - var(--mi-lg-width));
+    }
+    #contenedorMenuData {
+        height: calc(100% - var(--navbar-maqInfo-height) - var(--cntndr-menuData-margin-top));
+    }
+}
+
+/*            En celular       */
+@media screen and (max-width: 800px) {
+    .menu-lg {
+        display: none!important;    
+    }
+    .menu-sm {
+        display: flex!important;   
+    }
+    .menu-sm.d-none {
+        display: none!important;
+    }
+    .cont-prc {
+        width: 100%;
+    }
+    #contenedorMenuData {
+        height: calc(100% - var(--navbar-maqInfo-height) - var(--cntndr-menuData-margin-top) - var(--navbar-menu-sm-height) - var(--navbar-menu-sm-padding) * 2);
+    }
+}
+
+.tableFixHead          { overflow: auto; height: 100px; }
+.tableFixHead thead th { position: sticky; top: 0; z-index: 1; }
+
+/* Just common table stuff. Really. */
+table  { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px 16px; }
+th     { background:#eee; }

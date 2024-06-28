@@ -1,0 +1,15 @@
+{"ArrayItemTablaRegEstado":[
+    {"nroGolpe":1,  "estdo":"Apagada"       ,"tIncio":"7:00"    ,"duracion":5   },
+    {"nroGolpe":2,  "estdo":"Automatico"    ,"tIncio":"7:05"    ,"duracion":60  },
+    {"nroGolpe":3,  "estdo":"Manual"        ,"tIncio":"8:05"    ,"duracion":5   },
+    {"nroGolpe":4,  "estdo":"Automatico"    ,"tIncio":"8:10"    ,"duracion":15  },
+    {"nroGolpe":5,  "estdo":"Manual"        ,"tIncio":"8:25"    ,"duracion":5   },
+    {"nroGolpe":6,  "estdo":"Automatico"    ,"tIncio":"8:30"    ,"duracion":90  },
+    {"nroGolpe":7,  "estdo":"Manual"        ,"tIncio":"10:00"   ,"duracion":5   },
+    {"nroGolpe":8,  "estdo":"Automatico"    ,"tIncio":"10:05"   ,"duracion":30  },
+    {"nroGolpe":9,  "estdo":"Manual"        ,"tIncio":"10:35"   ,"duracion":5   },
+    {"nroGolpe":10, "estdo":"Automatico"    ,"tIncio":"10:40"   ,"duracion":5   },
+    {"nroGolpe":11, "estdo":"Manual"        ,"tIncio":"10:45"   ,"duracion":15  },
+    {"nroGolpe":12, "estdo":"Automatico"    ,"tIncio":"11:00"   ,"duracion":55  },
+    {"nroGolpe":13, "estdo":"Manual"        ,"tIncio":"11:55"   ,"duracion":5   }
+]}
